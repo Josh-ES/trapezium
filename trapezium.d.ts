@@ -9,7 +9,6 @@ declare module 'trapezium' {
 
 declare module 'trapezium/models/options' {
     export interface TrapeziumOptions {
-        useDocument?: boolean;
     }
     export default TrapeziumOptions;
 }

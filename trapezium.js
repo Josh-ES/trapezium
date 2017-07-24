@@ -73,11 +73,9 @@
 "use strict";
 
 exports.__esModule = true;
-exports.defaultOptions = {
-    useDocument: false
-};
+exports.defaultOptions = {};
 exports["default"] = exports.defaultOptions;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGVmYXVsdE9wdGlvbnMuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9zcmMvY29uc3RhbnRzL2RlZmF1bHRPcHRpb25zLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBRWEsUUFBQSxjQUFjLEdBQXFCO0lBQzlDLFdBQVcsRUFBRSxLQUFLO0NBQ25CLENBQUM7QUFFRixxQkFBZSxzQkFBYyxDQUFDIn0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGVmYXVsdE9wdGlvbnMuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9zcmMvY29uc3RhbnRzL2RlZmF1bHRPcHRpb25zLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBRWEsUUFBQSxjQUFjLEdBQXFCLEVBRS9DLENBQUM7QUFFRixxQkFBZSxzQkFBYyxDQUFDIn0=
 
 /***/ }),
 /* 1 */
