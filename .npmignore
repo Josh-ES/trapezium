@@ -1,0 +1,23 @@
+# TypeScript source code directory
+src/
+
+# Tests directory
+tests/
+
+# Directory with webpack configuration files
+webpack/
+
+# Directory with coverage reports
+coverage/
+
+# IntelliJ config directory
+.idea/
+
+# Node Modules directory
+node_modules/
+
+# Build, test and CI files
+.gitignore
+.travis.yml
+karma.conf.js
+tsconfig.json

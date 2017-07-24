@@ -1,0 +1,8 @@
+# Node packages directory
+node_modules/
+
+# IntelliJ files directory
+.idea/
+
+# Coverage directory
+coverage/

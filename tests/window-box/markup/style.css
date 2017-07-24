@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+}
+
+p {
+    margin: 0;
+    word-break: break-all;
+}
+
+.window-box {
+    position: absolute;
+    top: 100px;
+    right: 400px;
+    width: 350px;
+    height: 600px;
+    background: red;
+}
