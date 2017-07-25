@@ -6,3 +6,9 @@ node_modules/
 
 # Coverage directory
 coverage/
+
+# Built files
+trapezium.d.ts
+trapezium.js
+trapezium.min.js
+trapezium.min.js.map
