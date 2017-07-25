@@ -14,6 +14,7 @@ module.exports = {
 
     output: {
         filename: "trapezium.js",
+        libraryTarget: "commonjs",
     },
 
     module: {
