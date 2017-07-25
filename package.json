@@ -1,7 +1,7 @@
 {
   "name": "trapezium",
   "version": "1.0.1",
-  "description": "",
+  "description": "Smart, lightweight positioning of popups, tooltips and other floating elements",
   "main": "trapezium.js",
   "typings": "./trapezium.d.ts",
   "scripts": {
