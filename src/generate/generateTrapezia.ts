@@ -10,13 +10,13 @@ import viewPortDimensions from "./viewPortDimensions";
 export function generateTrapezia(element: HTMLElement, options: TrapeziumOptions): Trapezia {
   const viewport: Dimensions = viewPortDimensions();
   const position: ClientRect = elementPosition(element);
-  const dimensions: Dimensions = elementDimensions(element);
+  // const dimensions: Dimensions = elementDimensions(element);
 
   return {
-    top: trapeziumArea(viewport.width, dimensions.width, position.top),
-    right: trapeziumArea(viewport.height, dimensions.height, viewport.width - position.right),
-    bottom: trapeziumArea(viewport.width, dimensions.width, viewport.height - position.bottom),
-    left: trapeziumArea(viewport.height, dimensions.height, position.left),
+    top: trapeziumArea(viewport.width, 0, 0),
+    right: trapeziumArea(viewport.height, 0, viewport.width - 0),
+    bottom: trapeziumArea(viewport.width, 0, viewport.height - 0),
+    left: trapeziumArea(viewport.height, 0, 0),
   };
 }
 

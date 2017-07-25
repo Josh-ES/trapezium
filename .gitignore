@@ -12,3 +12,6 @@ trapezium.d.ts
 trapezium.js
 trapezium.min.js
 trapezium.min.js.map
+
+# Chrome logs
+.chrome

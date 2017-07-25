@@ -1,3 +1,5 @@
+var path = require('path');
+
 /**
  * Please see Karma config file reference for better understanding:
  * http://karma-runner.github.io/latest/config/configuration-file.html
@@ -21,12 +23,17 @@ module.exports = function(config) {
                     },
                 },
             },
+            Chrome_without_security: {
+                base: 'Chrome',
+                flags: ['--disable-web-security'],
+                chromeDataDir: path.resolve(__dirname, '.chrome'),
+            },
         },
 
         /**
          * This path will be used for resolving.
          */
-        basePath: '',
+        basePath: './',
 
         /**
          * List of test frameworks we will use. Most of them are provided by separate packages (adapters).
@@ -40,6 +47,7 @@ module.exports = function(config) {
         files: [
             'tests/tests.scss',
             'tests/main.tests.ts',
+            'log.js',
         ],
 
         /**
@@ -81,7 +89,7 @@ module.exports = function(config) {
          * Only Phantom is used in this example.
          * You can find more browser launchers here: https://npmjs.org/browse/keyword/karma-launcher
          */
-        browsers: ['PhantomJS_Desktop'],
+        browsers: ['Chrome_without_security'],
 
         /**
          * This is CI mode: run once and exit.

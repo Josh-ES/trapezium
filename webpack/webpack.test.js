@@ -62,14 +62,14 @@ module.exports = {
              * Instruments TS source files for subsequent code coverage.
              * See https://github.com/deepsweet/istanbul-instrumenter-loader
              */
-            {
-                enforce: "post",
-                test: /\.ts(x?)$/,
-                use: [
-                    "istanbul-instrumenter-loader",
-                ],
-                include: path.resolve("src/"),
-            },
+            // {
+            //     enforce: "post",
+            //     test: /\.ts(x?)$/,
+            //     use: [
+            //         "istanbul-instrumenter-loader",
+            //     ],
+            //     include: path.resolve("src/"),
+            // },
         ],
     },
 
