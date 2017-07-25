@@ -36,8 +36,37 @@ The result will look something like this:
 
 You can then use that information to inform the positioning of a popup, tooltip, or other element that overlays the window and points to the passed `element`.
 
+Development
+---
+
+This project is written in [TypeScript][typescript-url], and has tooling set up to work with that. In development, open up the project, and install the development dependencies:
+
+```shell
+npm install
+# or
+yarn install
+```
+
+Modify the source code as required, and then run:
+
+```shell
+npm run build
+# or
+yarn run build
+```
+
+To build the source code, generate a TypeScript declaration file, and minify the source code. To run tests against the code, run:
+
+```shell
+npm test
+# or
+yarn run test
+```
+
 [npm-image]: https://img.shields.io/npm/v/trapezium.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/trapezium
 
 [travis-ci-image]: https://img.shields.io/travis/Josh-ES/trapezium.svg?style=flat-square
 [travis-ci-url]: https://travis-ci.org/Josh-ES/trapezium
+
+[typescript-url]: http://www.typescriptlang.org/
